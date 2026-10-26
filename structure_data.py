@@ -5,6 +5,11 @@ def load_data(filename):
     with open(filename, "r") as file:
         data = json.load(file)
     return data
+data=load_data("data.json")
+
+
+
+
 
 # Display users and their connections
 def display_users(data):
@@ -16,5 +21,5 @@ def display_users(data):
         print(f"{page['id']}: {page['name']}")
 
 # Load and display the data
-data = load_data("unstructure_data.json")
+data = load_data("data.json")
 display_users(data)
