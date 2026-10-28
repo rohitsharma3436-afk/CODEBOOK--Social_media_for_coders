@@ -1,0 +1,43 @@
+# Finding "People You May Know"
+
+## **Introduction**
+Now that our data is cleaned and structured,your new task: **Build a 'People You May Know' feature!**
+
+In social networks, this feature helps users connect with others by suggesting friends based on mutual connections. Your job is to **analyze mutual friends and recommend potential connections**.
+
+---
+
+## **Task 1: Understand the Logic**
+### **How 'People You May Know' Works:**
+- If **User A** and **User B** are not friends but have **mutual friends**, we suggest User B to User A and vice versa.
+- More mutual friends = higher priority recommendation.
+
+Example:
+- **Amit (ID: 1)** is friends with **Priya (ID: 2)** and **Rahul (ID: 3)**.
+- **Priya (ID: 2)** is friends with **Sara (ID: 4)**.
+- Amit is not directly friends with Sara, but they share **Priya as a mutual friend**.
+- Suggest **Sara to Amit** as "People You May Know".
+
+---
+
+## **Task 2: Implement the Algorithm**
+We'll create a function that:
+1. Finds all friends of a given user.
+2. Identifies mutual friends between non-friends.
+3. Ranks recommendations by the number of mutual friends.
+
+
+
+## **Expected Output:**
+If Amit (ID: 1) and Sara (ID: 4) share Priya (ID: 2) as a mutual friend, the output might be:
+```
+People You May Know for User 1: [4]
+```
+This suggests that **Amit should connect with Sara!**
+
+---
+
+## **Next Steps**
+**"Great job! Next, let's find 'Pages You Might Like' based on your connections and preferences."**
+
+
