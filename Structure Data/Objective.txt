@@ -1,0 +1,33 @@
+# Welcome to CodeBook – The Social Media for Coders
+
+Your manager has assigned you tasks : analyzing a data dump of CodeBook users using pure python. Your job is to **load and explore the data** to understand its structure.
+
+---
+
+## **Task 1: Load the User Data**
+Your manager has given you a dataset containing information about CodeBook users, their connections (friends), and the pages they have liked.
+
+---
+
+## **Task 2: Read and Display the Data using Python**
+Your goal is to **load** this data and **print** it in a structured way. Use Python's built-in modules to accomplish this.
+
+
+---
+
+## **Expected Output:**
+```
+Users and Their Connections:
+Amit (ID: 1) - Friends: [2, 3] - Liked Pages: [101]
+Priya (ID: 2) - Friends: [1, 4] - Liked Pages: [102]
+Rahul (ID: 3) - Friends: [1] - Liked Pages: [101, 103]
+Sara (ID: 4) - Friends: [2] - Liked Pages: [104]
+
+Pages:
+101: Python Developers
+102: Data Science Enthusiasts
+103: AI & ML Community
+104: Web Dev Hub
+```
+
+---

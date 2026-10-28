@@ -1,0 +1,42 @@
+# Cleaning and Structuring the Data
+
+## **Introduction**
+Your the data is messy. Before we can analyze it effectively, we need to **clean and structure the data** properly.
+
+Task is to:
+- Handle missing values
+- Remove duplicate or inconsistent data
+- Standardize the data format
+
+
+**Problems:**
+1. User **ID 3** has an empty name.
+2. User **ID 4** has a duplicate friend entry.
+3. User **ID 5** has no connections or liked pages (inactive user).
+4. The **pages list** contains duplicate page IDs.
+
+---
+
+## **Task 2: Clean the Data**
+We will:
+1. Remove users with missing names.
+2. Remove duplicate friend entries.
+3. Remove inactive users (users with no friends and no liked pages).
+4. Deduplicate pages based on IDs.
+
+
+## **Expected Output:**
+The cleaned dataset will:
+- Remove users with missing names
+
+- Ensure friend lists contain unique entries
+
+- Remove inactive users
+
+- Deduplicate pages
+
+
+---
+ 
+
+
